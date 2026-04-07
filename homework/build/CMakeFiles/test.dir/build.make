@@ -86,18 +86,34 @@ CMakeFiles/test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/main.cpp.s"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nedma/Desktop/learnCmake/homework/main.cpp -o CMakeFiles/test.dir/main.cpp.s
 
+CMakeFiles/test.dir/a.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/a.cpp.obj: C:/Users/nedma/Desktop/learnCmake/homework/a.cpp
+CMakeFiles/test.dir/a.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/nedma/Desktop/learnCmake/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/a.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/a.cpp.obj -MF CMakeFiles/test.dir/a.cpp.obj.d -o CMakeFiles/test.dir/a.cpp.obj -c C:/Users/nedma/Desktop/learnCmake/homework/a.cpp
+
+CMakeFiles/test.dir/a.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/a.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/nedma/Desktop/learnCmake/homework/a.cpp > CMakeFiles/test.dir/a.cpp.i
+
+CMakeFiles/test.dir/a.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/a.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/nedma/Desktop/learnCmake/homework/a.cpp -o CMakeFiles/test.dir/a.cpp.s
+
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/main.cpp.obj"
+"CMakeFiles/test.dir/main.cpp.obj" \
+"CMakeFiles/test.dir/a.cpp.obj"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
 test.exe: CMakeFiles/test.dir/main.cpp.obj
+test.exe: CMakeFiles/test.dir/a.cpp.obj
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/linkLibs.rsp
 test.exe: CMakeFiles/test.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/nedma/Desktop/learnCmake/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/nedma/Desktop/learnCmake/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/test.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/test.dir/objects.a @CMakeFiles/test.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/test.dir/objects.a -Wl,--no-whole-archive -o test.exe -Wl,--out-implib,libtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/test.dir/linkLibs.rsp

@@ -1,5 +1,6 @@
-CMakeFiles/test.dir/main.cpp.obj: \
- C:/Users/nedma/Desktop/learnCmake/homework/main.cpp \
+CMakeFiles/test.dir/a.cpp.obj: \
+ C:/Users/nedma/Desktop/learnCmake/homework/a.cpp \
+ C:/Users/nedma/Desktop/learnCmake/homework/a.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -138,5 +139,4 @@ CMakeFiles/test.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/istream \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
- C:/Users/nedma/Desktop/learnCmake/homework/a.hpp
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc
