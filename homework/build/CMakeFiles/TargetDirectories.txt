@@ -1,0 +1,3 @@
+C:/Users/nedma/Desktop/learnCmake/homework/build/CMakeFiles/test.dir
+C:/Users/nedma/Desktop/learnCmake/homework/build/CMakeFiles/edit_cache.dir
+C:/Users/nedma/Desktop/learnCmake/homework/build/CMakeFiles/rebuild_cache.dir
